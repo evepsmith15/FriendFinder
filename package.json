@@ -1,0 +1,26 @@
+{
+  "name": "friendfinder",
+  "version": "1.0.0",
+  "description": "Homework 11",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/evepsmith15/FriendFinder.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/evepsmith15/FriendFinder/issues"
+  },
+  "homepage": "https://github.com/evepsmith15/FriendFinder#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "inquirer": "^6.4.1"
+  },
+  "devDependencies": {}
+}
