@@ -192,12 +192,12 @@
 		</div>
 	</main>
 	<script type="text/javascript">
-		$('#submitButton').on('click', function(event) {
+		$('#submitButton').on('click', function (event) {
 			event.preventDefault();
 			var userInput = {
 				name: $('#userName').val().trim(),
 				photo: $('#userPhoto').val().trim(),
-				scores:[
+				scores: [
 					$('#question1').val().trim(),
 					$('#question2').val().trim(),
 					$('#question3').val().trim(),
@@ -212,14 +212,15 @@
 			};
 			// Add user inputs to friends list
 			$.post('/api/friends', userInput)
-      		.done(function(data) {
-      			// Set the name and image values of friend match
-      			$('#userMatch').html(data.matchName);
-		    	$("#userMatchImage").attr("src", data.matchImage);
-		    	// Pop open the modal dialog
-      			//$('#modal1').modal('open');
-      		});
+				.done(function (data) {
+					// Set the name and image values of friend match
+					$('#userMatch').html(data.matchName);
+					$("#userMatchImage").attr("src", data.matchImage);
+					// Pop open the modal dialog
+					//$('#modal1').modal('open');
+				});
 		});
-		</script>
+	</script>
 </body>
+
 </html>
