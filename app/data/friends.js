@@ -50,7 +50,7 @@ var friendsArray = [{
     },
     {
         name: 'Byleth',
-        photo: '',
+        photo: 'https://vignette.wikia.nocookie.net/fireemblem/images/b/bc/Artwork_Byleth_M.png/revision/latest?cb=20190426054524',
         scores: [
             '3',
             '2',
