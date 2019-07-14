@@ -178,8 +178,6 @@
 								<option value="5">5 (Strongly Agree)</option>
 							</select>
 						</div>
-
-						<!-- Survey Submit Button -->
 						<div>
 							<button class="btn waves-effect waves-light" type="submit" name="action"
 								id="submitButton">Submit Responses
@@ -191,7 +189,29 @@
 			</div>
 		</div>
 	</main>
+	<div id="modal1" class="modal">
+		<div class="modal-content">
+			<h4>Closest (Guy)Friend Match</h4>
+			<div class="divider"></div>
+			<h5 id="userMatch"></h5>
+			<img id="userMatchImage" class="materialboxed" width="650" src="">
+		</div>
+		<div class="modal-footer">
+			<a href="/survey" class="modal-action modal-close waves-effect waves-green btn-flat">Fill Again!</a>
+		</div>
+	</div>
 	<script type="text/javascript">
+		$(document).ready(function () {
+			$('select').material_select();
+			$('.modal').modal({
+				dismissible: false, // Modal can be dismissed by clicking outside of the modal
+				opacity: .5, // Opacity of modal background
+				inDuration: 300, // Transition in duration
+				outDuration: 200, // Transition out duration
+				startingTop: '4%', // Starting top style attribute
+				endingTop: '10%' // Ending top style attribute
+			});
+		});
 		$('#submitButton').on('click', function (event) {
 			event.preventDefault();
 			var userInput = {
@@ -217,7 +237,7 @@
 					$('#userMatch').html(data.matchName);
 					$("#userMatchImage").attr("src", data.matchImage);
 					// Pop open the modal dialog
-					//$('#modal1').modal('open');
+					$('#modal1').modal('open');
 				});
 		});
 	</script>
