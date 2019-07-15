@@ -24,12 +24,12 @@ var friendsArray = [{
         scores: [
             '3',
             '2',
-            '3',
-            '3',
+            '1',
+            '1',
+            '2',
             '5',
             '5',
-            '4',
-            '3',
+            '5',
             '1',
             '1'
         ]
@@ -40,16 +40,16 @@ var friendsArray = [{
         //Only a few people can open his heart but he hides his motherly nature with forced jokes and fake smiles. 
         photo: 'https://osmovies.files.wordpress.com/2016/12/tsubasa-chronicle-fye-d-flourite-eyepatch-otaku-house-600x339.jpg',
         scores: [
-            '3',
-            '2',
-            '3',
-            '3',
-            '5',
-            '5',
-            '4',
-            '3',
             '1',
-            '1'
+            '4',
+            '5',
+            '5',
+            '5',
+            '2',
+            '5',
+            '1',
+            '5',
+            '4'
         ]
     },
     {
@@ -59,15 +59,15 @@ var friendsArray = [{
         photo: 'https://vignette.wikia.nocookie.net/fireemblem/images/b/bc/Artwork_Byleth_M.png/revision/latest?cb=20190426054524',
         scores: [
             '3',
-            '2',
             '3',
             '3',
-            '5',
-            '5',
-            '4',
             '3',
-            '1',
-            '1'
+            '3',
+            '3',
+            '3',
+            '3',
+            '3',
+            '3'
         ]
     },
     {
@@ -75,16 +75,16 @@ var friendsArray = [{
         //You matched with Ladd. Somehow you wanted an unstable person. Despite being crazy and bloodthirsty, he respects strong natured individuals. 
         photo: 'https://static1.comicvine.com/uploads/original/11113/111134319/5143165-8428866405-1628_.jpg',
         scores: [
-            '3',
-            '2',
-            '3',
-            '3',
-            '5',
-            '5',
-            '4',
-            '3',
             '1',
-            '1'
+            '1',
+            '1',
+            '1',
+            '1',
+            '1',
+            '4',
+            '5',
+            '1',
+            '5'
         ]
     },
     {
@@ -93,16 +93,16 @@ var friendsArray = [{
         //But should you convince him otherwise, he's a great choice. 
         photo: 'http://www.anime-evo.net/wp-content/uploads/2011/12/00-3.jpg',
         scores: [
-            '3',
-            '2',
-            '3',
-            '3',
-            '5',
-            '5',
-            '4',
-            '3',
             '1',
-            '4'
+            '1',
+            '5',
+            '5',
+            '5',
+            '1',
+            '1',
+            '1',
+            '1',
+            '1'
         ]
     },
     {
@@ -111,16 +111,16 @@ var friendsArray = [{
         //He keeps his cards close to his chest. He values his friendship with others and fights for a glass of milk.
         photo: 'https://vignette.wikia.nocookie.net/p__/images/3/3e/Image-anime-bc-4cb5a8a.png/revision/latest?cb=20180304202842&path-prefix=protagonist',
         scores: [
-            '3',
-            '2',
-            '3',
-            '3',
-            '5',
-            '5',
             '4',
-            '3',
+            '4',
+            '5',
             '1',
-            '1'
+            '2',
+            '1',
+            '4',
+            '4',
+            '4',
+            '4'
         ]
     }, {
         name: 'Ayame',
@@ -128,16 +128,16 @@ var friendsArray = [{
         //His girly appearance should not be underestimated. He's as smart as a snake and will take advantage of it.
         photo: 'https://pillowfortmedia.s3.amazonaws.com/posts/aeac68cc198b_%5BHorribleSubs%5D%20Fruits%20Basket%20%282019%29%20-%2013%20%5B1080p%5D.mkv_snapshot_08.09_%5B2019.06.29_13.27.32%5D_stitchB.jpg',
         scores: [
-            '3',
-            '2',
-            '3',
-            '3',
             '5',
-            '5',
-            '4',
-            '3',
             '1',
-            '1'
+            '1',
+            '4',
+            '1',
+            '5',
+            '5',
+            '1',
+            '2',
+            '5'
         ]
     }, {
         name: 'Joker',
@@ -161,18 +161,19 @@ var friendsArray = [{
         //He always does what he thinks is right. He fights against racism. 
         photo: 'https://vignette.wikia.nocookie.net/fireemblem/images/3/34/B12-003N_artwork.png/revision/latest?cb=20180322010115',
         scores: [
-            '3',
-            '2',
-            '3',
-            '3',
-            '5',
-            '5',
             '4',
-            '3',
+            '5',
+            '5',
             '1',
-            '1'
+            '1',
+            '1',
+            '2',
+            '1',
+            '4',
+            '3'
         ]
     }
 ];
 
 module.exports = friendsArray;
+//https://delicat-vin-76026.herokuapp.com/ Link to heroku
